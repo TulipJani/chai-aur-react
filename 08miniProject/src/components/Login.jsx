@@ -11,7 +11,6 @@ function Login() {
     e.preventDefault();
     setUser({ username });
   };
-
   return (
     <div className="bg-gray-800 p-8 rounded-lg shadow-md">
       <h3 className="text-lg font-medium text-gray-100 mb-4">Login</h3>
